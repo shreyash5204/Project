@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #18181b; /* bg-zinc-900 */
+}
+
+.form {
+    padding: 2.5rem; /* p-10 */
+    color: white;
+}
+
+.input-field{
+    display: block;
+    width: 100%;
+    border-radius: 0.5rem; /* rounded-lg */
+    padding: 0.5rem 1.25rem; /* px-5 py-2 */
+    background-color: #27272a; /* bg-zinc-800 */
+    margin-top: 0.5rem; /* mt-2 */
+    color: white;
+}
+
+.edit-input-field{
+    display: block;
+    width: 25%;
+    border-radius: 0.5rem; /* rounded-lg */
+    padding: 0.5rem 1.25rem; /* px-5 py-2 */
+    background-color: #27272a; /* bg-zinc-800 */
+    margin-top: 0.5rem; /* mt-2 */
+    color: white;
+}
+
+.textarea-field {
+    display: block;
+    width: 100%;
+    border-radius: 0.5rem; /* rounded-lg */
+    padding: 0.5rem 1.25rem; /* px-5 py-2 */
+    background-color: #27272a; /* bg-zinc-800 */
+    margin-top: 0.5rem; /* mt-2 */
+    color: white;
+}
+
+.textarea-field {
+    resize: none;
+}
+
+.submit-button {
+    margin-top: 0.5rem; /* mt-2 */
+    background-color: #2563eb; /* bg-blue-600 */
+    padding: 0.5rem 1.25rem; /* px-5 py-2 */
+    border-radius: 0.5rem; /* rounded-lg */
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.tasks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem; /* gap-3 */
+    padding: 2.5rem; /* p-10 */
+    justify-content: center; 
+}
+
+.task {
+    width: 18rem; /* w-72 */
+    padding: 1rem; /* px-3 py-4 */
+    border-radius: 0.5rem; /* rounded-lg */
+    background-color: #27272a; /* bg-zinc-800 */
+    /*display: none;/* hidden */
+}
+
+.task h1 {
+    color: white;
+    font-size: 1.875rem; /* text-3xl */
+    letter-spacing: -0.02em; /* tracking-tighter */
+}
+
+.task{
+    color: #3b82f6; /* text-blue-500 */
+    display: inline-block;
+    margin-top: 0.75rem; 
+}
+
+.link{
+    color: #3b82f6; /* text-blue-500 */
+    display: inline-block;
+    text-align: left;
+    margin-top: 0.75rem; 
+}
+
+.link{
+    display: flex;
+    justify-content: space-evenly;
+}
